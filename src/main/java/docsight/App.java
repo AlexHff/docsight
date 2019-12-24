@@ -2,7 +2,6 @@ package docsight;
 
 import java.io.File;
 
-import org.apache.commons.io.FileUtils;
 import org.opencv.core.Core;
 
 public final class App {
@@ -16,8 +15,6 @@ public final class App {
         }
         nu.pattern.OpenCV.loadShared();
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        FileUtils.cleanDirectory(new File(args[0] + "/text/"));
-        FileUtils.cleanDirectory(new File(args[0] + "/image/"));
         File folder = new File(args[0]);
         for (File e : folder.listFiles()) {
             if (e.isFile()) {
