@@ -1,6 +1,6 @@
 # node-metrics [![Build Status](https://travis-ci.com/AlexHff/docsight.svg?branch=master)](https://travis-ci.com/AlexHff/docsight) [![HitCount](http://hits.dwyl.io/AlexHff/docsight.svg)](http://hits.dwyl.io/AlexHff/docsight)
 
-OpenCV Text Detection
+Java implementation of OpenCV Text Detection
 
 ## Getting Started
 
